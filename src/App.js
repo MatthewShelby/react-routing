@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       {/* <MainLayout> */}
 
-      <BrowserRouter>
+      <BrowserRouter basename='/react-routing'>
         <Routes>
           <Route element={<MainLayout />} >
             <Route path="/" element={<HomeBigTitle />} />
